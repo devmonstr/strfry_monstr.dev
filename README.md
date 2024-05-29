@@ -32,7 +32,7 @@ A C++20 compiler is required, along with a few other common dependencies. On Deb
 #### Linux
 
     sudo apt install -y git build-essential libyaml-perl libtemplate-perl libregexp-grammars-perl libssl-dev zlib1g-dev liblmdb-dev libflatbuffers-dev libsecp256k1-dev libzstd-dev
-    git clone https://github.com/hoytech/strfry && cd strfry/
+    git clone https://github.com/devmonstr/strfry_monstr.dev && cd strfry_monstr.dev/
     git submodule update --init
     make setup-golpe
     make -j4
@@ -40,7 +40,7 @@ A C++20 compiler is required, along with a few other common dependencies. On Deb
 #### FreeBSD
 
     pkg install -y gcc gmake cmake git perl5 openssl lmdb flatbuffers libuv libinotify zstr secp256k1 zlib-ng p5-Regexp-Grammars p5-Module-Install-Template p5-YAML
-    git clone https://github.com/hoytech/strfry && cd strfry/
+    git clone https://github.com/devmonstr/strfry_monstr.dev && cd strfry_monstr.dev/
     git submodule update --init
     gmake setup-golpe
     gmake -j4
@@ -50,7 +50,7 @@ A C++20 compiler is required, along with a few other common dependencies. On Deb
 
 Here is how to run the relay:
 
-    ./strfry relay
+    ./strfry_monstr.dev relay
 
 For dev/testing, the config file `./strfry.conf` is used by default. It stores data in the `./strfry-db/` directory.
 
